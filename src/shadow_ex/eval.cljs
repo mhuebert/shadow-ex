@@ -10,7 +10,7 @@
 
 (def bootstrap-path "/js/bootstrap")
 
-(defonce c-state (cljs/empty-state))
+(def c-state (cljs/empty-state))
 
 (def init
   (delay
