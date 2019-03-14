@@ -1,0 +1,4 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.0"}
+        org.clojure/clojurescript {:mvn/version "1.10.520"}
+        chia {:git/url "https://github.com/mhuebert/chia"
+              :sha "c707f276cad0ef74d29297b5b13a37bd2d2c75c7"}}}

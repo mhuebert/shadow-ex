@@ -1,0 +1,10 @@
+{:deps true
+ :dev-http {8000 "public"}
+ :builds {:browser {:target :browser
+                    :modules {:app {:entries [shadow-ex.core]}}
+                    :output-dir "public/js/browser"
+                    :asset-path "/js/browser"}
+          :bootstrap {:target :bootstrap
+                      :output-dir "public/js/bootstrap"
+                      :entries [shadow-ex.core]
+                      :exclude [cljs.js]}}}
