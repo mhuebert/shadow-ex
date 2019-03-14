@@ -18,7 +18,7 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "reset-jss": "^1",
-    "shadow-cljs": "^2.8.15",
+    "shadow-cljs": "^2.8.16",
     "unfetch": "4.0.1"
   }
 }
