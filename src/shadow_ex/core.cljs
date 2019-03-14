@@ -11,5 +11,5 @@
           result (e/eval-form form)]
     (-> (js/document.getElementById "ex")
         (j/update! :innerHTML str
-                   (prn-str "other: " form :=> (:value result))
+                   (prn-str form :=> (:value result))
                    "<br/>"))))
